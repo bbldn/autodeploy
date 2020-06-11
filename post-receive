@@ -1,0 +1,8 @@
+#!/bin/bash
+
+unset GIT_DIR
+
+cd /home/bbldn
+echo 'Handing over docker control'
+docker exec 1econcert bash /root/run.sh
+echo 'docker returned control'
